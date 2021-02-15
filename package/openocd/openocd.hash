@@ -1,4 +1,4 @@
 # From http://sourceforge.net/projects/openocd/files/openocd/0.10.0/
-sha1 3245d43d60a1a93f8b0f6b1ce20b53e38cab7a4a  openocd-0.10.0.tar.bz2
-md5 b412bdef0481a3859c6585eb69f6f6ba  openocd-0.10.0.tar.bz2
+sha1 ec8642a5df994628975c8107306ba6bc7a12039d  openocd-0.11.0-rc2.tar.bz2
+md5 dfd54ea3d7ccbe42e663d5068cdaeb07  openocd-0.11.0-rc2.tar.bz2
 sha256 8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643  COPYING
