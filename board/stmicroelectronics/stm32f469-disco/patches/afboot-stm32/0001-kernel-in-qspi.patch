@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index 1e8557db99..b6b8c4d93f 100644
+--- a/Makefile
++++ b/Makefile.patch
+@@ -7,7 +7,7 @@ OBJDUMP = $(CROSS_COMPILE)objdump
+ SIZE = $(CROSS_COMPILE)size
+ GDB = $(CROSS_COMPILE)gdb
+ OPENOCD = openocd
+-KERNEL_ADDR?=0x08008000
++KERNEL_ADDR?=0x90000000
+ DTB_ADDR?=0x08004000
+ 
+ CFLAGS := -mthumb -mcpu=cortex-m4
