@@ -4,8 +4,8 @@
 #
 ################################################################################
 
-AFBOOT_STM32_VERSION = 0.2
-AFBOOT_STM32_SITE = $(call github,mcoquelin-stm32,afboot-stm32,v$(AFBOOT_STM32_VERSION))
+AFBOOT_STM32_VERSION = 58b30e76491361f2df92f0ce211d89e9e0023e4d
+AFBOOT_STM32_SITE = $(call github,bherrera,afboot-stm32,$(AFBOOT_STM32_VERSION))
 AFBOOT_STM32_INSTALL_IMAGES = YES
 AFBOOT_STM32_INSTALL_TARGET = NO
 
