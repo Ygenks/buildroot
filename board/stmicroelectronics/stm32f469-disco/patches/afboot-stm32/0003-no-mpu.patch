@@ -7,7 +7,7 @@ index d4d0909831..03f823f288 100644
  	int i;
  
 -	mpu_config(0x0);
-+	/* mpu_config(0x0); */
++	mpu_config(0xc0000000); 
  
  	if (*FLASH_CR & FLASH_CR_LOCK) {
  		*FLASH_KEYR = 0x45670123;
