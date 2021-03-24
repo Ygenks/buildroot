@@ -124,7 +124,11 @@
 		regulator-name = "vcc5_host1";
 		regulator-always-on;
 	};
+
 };
+
+
+
 
 &rcc {
 	compatible = "st,stm32f469-rcc", "st,stm32f42xx-rcc", "st,stm32-rcc";
@@ -237,4 +241,25 @@
 	pinctrl-0 = <&usbotg_fs_pins_a>;
 	pinctrl-names = "default";
 	status = "okay";
+};
+
+&qspi {
+    pinctrl-names = "default";
+    pinctrl-0 = <&qspi_clk_pins_a &qspi_bk1_pins_a>;
+    reg = <0x58003000 0x1000>,
+    <0x90000000 0x10000000>;
+    #address-cells = <1>;
+    #size-cells = <0>;
+    status = "okay";
+
+    flash0: n25q128a@0 {
+        compatible = "micron,n25q128a13", "spi-flash";
+        reg = <0>;
+        spi-rx-bus-width = <4>;
+        spi-tx-bus-width = <4>;
+        spi-max-frequency = <108000000>;
+        /* memory-map = <0x90000000 0x1000000>; */
+        #address-cells = <1>;
+        #size-cells = <1>;
+    };
 };
