@@ -284,6 +284,7 @@ menu "Games"
 	source "package/supertuxkart/Config.in"
 	source "package/xorcurses/Config.in"
     source "package/fbdoom/Config.in"
+    source "package/tetris/Config.in"
 endmenu
 
 menu "Graphic libraries and applications (graphic/text)"

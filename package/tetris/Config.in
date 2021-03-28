@@ -1,0 +1,6 @@
+config BR2_PACKAGE_TETRIS
+        bool "tetris"
+        help
+          Framebuffer version of tetris
+
+          https://github.com/mzorro/framebuffer-tetris

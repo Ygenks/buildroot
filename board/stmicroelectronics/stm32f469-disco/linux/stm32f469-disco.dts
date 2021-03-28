@@ -56,7 +56,7 @@
 	compatible = "st,stm32f469i-disco", "st,stm32f469";
 
 	chosen {
-		bootargs = "root=/dev/mmcblk0 rw fbcon=map:1";
+		bootargs = "root=/dev/mmcblk0 rw fbcon=map:0";
 		stdout-path = "serial0:115200n8";
 	};
 
